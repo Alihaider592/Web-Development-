@@ -1,0 +1,135 @@
+  
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .container ul{
+            display: flex;
+            list-style: none;
+            gap: 60px;
+            margin-left: 150px;
+        }
+        .button{
+            justify-self: center;
+            border: 3px solid black;
+            display: flex;
+           margin-left: 100px;
+           height: 30px;
+           width: 80px;
+           border-radius: 5px;
+           font-weight: 600;
+           
+        }
+        .img1{
+            display: flex;
+            justify-self: center;
+        }
+        .text{
+            justify-self: center;
+            font-size: 15px;
+        }
+        .container1{
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+            column-gap: 100px;
+            height: 1000px;
+            width: 1360px;
+            display: grid;
+            grid-template-areas: "a a a"
+                                "b b b";
+        }
+        .box{
+            height: 130px;
+            width: 250px;
+            border: 2px solid black;
+            border: none;
+            background-color: rgb(252, 248, 248);
+        }
+        .box1{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 20px;
+            
+        }
+        .gray{
+            margin-top: 30px; 
+            background-color: rgb(37, 196, 37);
+            height: 35px;
+            width: 130px;
+            border-radius: 5px;
+            border:  rgb(154, 255, 3);
+            color: white;
+        }
+        .font1{
+            font-size:7px;
+        }
+        .font2{
+            font-size: 10px;
+        }
+        .font3{
+            font-size: 7px;
+        }
+        .box2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 20px;
+        }
+    .brown{
+        font-size: 10px;
+    }
+    .container2{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        gap: 10px;
+        
+    }
+    .heading{
+        justify-self: center;
+        align-self: center;
+        font-size: 45px;
+    }
+    .paragraph{
+        font-size: 45px;
+    }
+    .paragraph2{
+        font-size: 45px;
+    }
+    .img2{
+        height: 50px;
+        width: 125px;
+        justify-self: center;
+        align-self: center;
+    }
+    .paragraph3{
+        width: 40vw;
+        text-align: center;
+        font-size: 18px;
+        align-self: center;
+        justify-self: center;
+        width: 650px;
+    }       
+    .mac{
+        height: 50px;
+        width: 300px;
+        background-color: rgb(59, 199, 218);
+        border: none;
+       border-radius: 5px;
+       color: white;
+       font-size: 17px;
+       font-weight: 600;
+    }
+    .for{
+        margin-top: 50px;
+        justify-self: center;
+    }
