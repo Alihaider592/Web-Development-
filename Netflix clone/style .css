@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(img/background\ img.jpg);
+    height: 95vh;
+}
+
+.box {
+    position: relative;
+    height: 95vh;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.bar {
+    z-index: 10;
+    position: absolute;
+}
+
+.logo {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    display: flex;
+    left: 170px;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    height: 33px;
+    width: 75px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 750;
+    right: 150px;
+}
+
+.content {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    left: 400px;
+    top: 200px;
+    color: white;
+    bottom: 400px;
+}
+
+.content1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.content2 {
+    font-size: 55px;
+    font-weight: 800;
+}
+.content3 {
+    font-size: 20px;
+    font-weight: 790;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content4 {
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: absolute;
+    height: 50px;
+    width: 370px;
+    font-size: 25px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(8, 7, 7);
+    opacity: 0.6;
+    color: white;
+    outline: 1px solid rgb(201, 201, 201);
+    border-radius: 4px;
+    right: 215px;
+}
+
+.b {
+    height: 50px;
+    width: 210px;
+    font-size: 25px;
+    border: none;
+    position: absolute;
+    left: 380px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    outline: 1px solid red;
+}
+
+.form {
+    position: absolute;
+    bottom: 175px;
+    left: 400px;
+    top: 50px;
+}
+
+.arrow {
+    position: absolute;
+    top: 15px;
+}
+ body{
+    background-color: black;
+ }
+ .container2{
+    display: flex;
+ }
+ .iframe1{
+ height: 400px;
+    width: 200px;
+    object-fit: contain;
+    margin-right: 30px;
+    margin-left: 70px;
+}
+.iframe2{
+    height: 400px;
+    width: 200px;
+    object-position:center;
+    margin-right: 40px;
+}
+.iframe3{
+    height: 400px;
+    width: 200px;
+    object-position:center;
+    margin-right: 40px;
+}
+.iframe4{
+    height: 400px;
+    width: 200px;
+    object-position:center;
+    margin-right: 40px;
+}
+.iframe5{
+    width: 200px;
+    height: 400px;
+    object-position:center;
+}
+h1{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 150px;
+    width: 70px;
+}
+.grid0{
+    height: 330px;
+    width: 250px;
+    border: 2px solid black;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    position:relative;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+    align-items: center;
+}
+.img2{
+    position: relative;
+    left: 180px;
+    top: 80px;
+}
+.para{
+    padding: 20px;
+    color: white;
+}
+ .grid1{
+    margin-left: 150px;
+ }
+ .comp{
+    position: relative;
+    left: 150px;
+    top: 30px;
+ }
+ .arro{
+    position: relative;
+    left: 150px;
+    top: 30px;
+ }
+ .dor{
+    position: relative;
+    left: 150px;
+    top: 30px;
+ }
+ .mass{
+    position: relative;
+    left: 150px;
+    top: 30px;
+ }
+ .question{
+    position: relative;
+    top: 210px;
+ }
+ .shell{
+    height: 80px;
+    width: 1050px;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+    left: 150px;
+    background-color: rgb(85, 85, 85);
+ }
+ .shell{
+    color: white;
+    font-size: 25px;
+    align-content: center;
+    justify-content:center ;
+    position: relative;
+ }
+ .sh1{
+    position: relative;
+    left: 30px;
+ }
+ 
+ .plus{
+    position:absolute;
+    font-size: 45px;
+    left: 980px;
+    z-index: 10;
+    bottom: 20px;
+    color: white;
+ }
+ .plus1{
+    position: absolute;
+    right: 20px;
+ }
+ .question1:hover{
+    background-color: black;
+ }
+ .btn1 {
+    position: absolute;
+    height: 50px;
+    width: 370px;
+    font-size: 25px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(8, 7, 7);
+    opacity: 0.6;
+    color: white;
+    outline: 1px solid rgb(201, 201, 201);
+    border-radius: 4px;
+    left: 400px;
+    top: 2200px;
+}
+
+.b1 {
+    height: 50px;
+    width: 210px;
+    font-size: 25px;
+    border: none;
+    position: absolute;
+    left: 780px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    outline: 1px solid red;
+    top: 2200px;
+}
+.content10{
+    color: white;
+    position: relative;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: 600;
+    left: 450px;
+    top: 230px;   
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 400px;
+    width: 1340px;
+    z-index: 15;
+    position: absolute;
+    top: 2300px;
+}
+.link1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ul{
+    display: inline;
+    color: gray;
+    list-style: none;
+}
+a:link{
+    color: gray;
+}
+.bun1{
+    position: relative;
+   margin: 50px;
+   margin-top: 140px;
+   clear: right;
+   right: 285px;
+}
+.bun2{
+    position: relative;
+   margin: 50px;
+   clear: right;
+   right: 80px;
+   bottom: 130px;
+}
+.bun3{
+    position: relative;
+   margin: 50px;
+   clear: right;
+   left: 140px;
+   bottom: 265px;
+}
+.bun4{
+    position: relative;
+   margin: 50px;
+   left: 340px;
+   bottom: 395px;
+   clear: right;
+}
+.b5{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    background-color:black;
+    border: none;
+    outline: 1px solid gray;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.content5{
+    position:absolute;
+    color: gray;
+    top: 340px;
+    left: 100px;
+}
+.content6{
+    position:absolute;
+    color: gray;
+    top: 380px;
+    left: 100px;
+}
+.link2{
+    position:absolute;
+    top: 380px;
+    left: 615px;
+}
+.link2:link{
+    color: rgb(63, 75, 247);
+}
